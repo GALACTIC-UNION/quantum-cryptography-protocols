@@ -1,0 +1,16 @@
+# NIST security level mappings
+levels:
+  1:
+    description: "At least as hard as AES-128"
+    kyber: kyber-512
+    dilithium: dilithium2
+    falcon: falcon-512
+  3:
+    description: "At least as hard as AES-192"
+    kyber: kyber-768
+    dilithium: dilithium3
+  5:
+    description: "At least as hard as AES-256"
+    kyber: kyber-1024
+    dilithium: dilithium5
+    falcon: falcon-1024

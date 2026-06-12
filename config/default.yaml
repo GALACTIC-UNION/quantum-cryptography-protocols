@@ -1,0 +1,12 @@
+# Default algorithm selections
+qkd:
+  default_protocol: BB84
+  key_length_bits: 256
+post_quantum:
+  kem: kyber-768          # FIPS 203 ML-KEM Level 3
+  signature: dilithium3   # FIPS 204 ML-DSA Level 3
+  hash_sig: sphincs-sha2-128s  # FIPS 205
+provider:
+  backend: simulation
+  noise_model: depolarizing
+  error_rate: 0.01

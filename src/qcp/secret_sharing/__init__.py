@@ -1,0 +1,1 @@
+"""Quantum secret sharing protocols."""
